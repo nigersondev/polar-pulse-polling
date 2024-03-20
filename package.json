@@ -1,0 +1,28 @@
+{
+  "name": "polar-pulse-polling",
+  "version": "1.2.5",
+  "description": "A lightweight JavaScript library for efficient polling of APIs or resources with customizable intervals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nigersondev/polar-pulse-polling"
+  },
+  "keywords": [
+    "polling",
+    "api",
+    "javascript",
+    "lightweight",
+    "interval"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2",
+    "eventemitter3": "^4.0.7"
+  }
+}
